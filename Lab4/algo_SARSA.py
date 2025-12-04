@@ -48,3 +48,4 @@ if __name__ == "__main__":
         S = (race.y, race.x)
         state_index = state_to_index(S, coords)
         A = choose_A(S, Q, coords, race, epsilon)
+        iteration = 1
